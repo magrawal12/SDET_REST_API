@@ -1,0 +1,39 @@
+2020-12-04 20:11:56,798 WARN  [SoapUI] Missing folder [C:\Users\Manish\REST_Project_Manish\ext] for external libraries
+2020-12-04 20:11:56,963 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Manish\soapui-settings.xml]
+2020-12-04 20:11:57,894 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Manish/REST_Project_Manish/REST-Project-Test-soapui-project.xml]
+2020-12-04 20:11:58,285 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project Test]
+2020-12-04 20:11:58,287 INFO  [SoapUITestCaseRunner] Running Project [REST Project Test], runType = SEQUENTIAL
+2020-12-04 20:11:58,317 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+2020-12-04 20:11:58,327 INFO  [SoapUITestCaseRunner] running step [GenerateToken]
+2020-12-04 20:11:59,400 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-04 20:11:59,400 INFO  [SoapUITestCaseRunner] running step [TokenScriptPass]
+2020-12-04 20:11:59,844 INFO  [log] {"success":1,"error":[],"data":{"access_token":"2a80dbe0056f74a9fcafa9cff7316aa67fd1027d","expires_in":86400,"token_type":"Bearer"}}
+2020-12-04 20:11:59,868 INFO  [log] {data={access_token=2a80dbe0056f74a9fcafa9cff7316aa67fd1027d, token_type=Bearer, expires_in=86400}, success=1, error=[]}
+2020-12-04 20:11:59,886 INFO  [log] Token value is 2a80dbe0056f74a9fcafa9cff7316aa67fd1027d
+2020-12-04 20:11:59,887 INFO  [SoapUITestCaseRunner] running step [RESTGroovyScript]
+2020-12-04 20:11:59,950 INFO  [log] Testcase name is TestCase 1
+2020-12-04 20:11:59,957 INFO  [log] TestSuite name is TestSuite 1
+2020-12-04 20:12:00,464 INFO  [log] Counter is 0
+2020-12-04 20:12:00,494 INFO  [log] Count is 1 Parent Category is Stationary
+2020-12-04 20:12:00,495 INFO  [log] Count is 1 Sub Category is Pen
+2020-12-04 20:12:00,666 INFO  [SoapUITestCaseRunner] running step [AdminLogin]
+2020-12-04 20:12:01,069 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-04 20:12:01,069 INFO  [SoapUITestCaseRunner] running step [GetCategory]
+2020-12-04 20:12:17,306 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-04 20:12:17,306 INFO  [SoapUITestCaseRunner] running step [CreateCategory]
+2020-12-04 20:12:17,753 INFO  [log] [application/json; charset=utf-8]
+2020-12-04 20:12:17,759 INFO  [log] Response is {"success":1,"error":[],"data":{"id":2081}}
+2020-12-04 20:12:17,760 INFO  [log] New CategoryID is 2081
+2020-12-04 20:12:17,760 INFO  [log] Response status is 1
+2020-12-04 20:12:17,762 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-04 20:12:17,762 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-04 20:12:17,762 INFO  [SoapUITestCaseRunner] running step [CreateSubCategory]
+2020-12-04 20:12:18,232 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-04 20:12:18,233 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-12-04 20:12:18,241 INFO  [SoapUITestCaseRunner] running step [PassCategoryID]
+2020-12-04 20:12:18,258 INFO  [log] {data={id=2081}, success=1, error=[]}
+2020-12-04 20:12:18,259 INFO  [log] Category ID is 2081
+2020-12-04 20:12:18,261 INFO  [SoapUITestCaseRunner] running step [CategoryByID]
+2020-12-04 20:12:18,690 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-04 20:12:18,707 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 19642ms, status: FINISHED
+2020-12-04 20:12:18,708 INFO  [SoapUITestCaseRunner] Project [REST Project Test] finished with status [FINISHED] in 20414ms
